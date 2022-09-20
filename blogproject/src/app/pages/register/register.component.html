@@ -1,0 +1,24 @@
+
+<form action="action_page.php">
+    <div class="container">
+      <h3>Registeration</h3>
+      <p>Please fill in following details to create New account. </p>
+      <hr>
+  
+      <label for=""><b>UserName</b></label>
+      <input type="text" placeholder="Create Unique Username"  [(ngModel)]="username" id="username" >
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email"  [(ngModel)]="email" id="email" >
+
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password"  [(ngModel)]="password" id="psw" >
+  
+      <button type="submit" class="registerbtn"  >Register</button>
+    </div>
+  
+    <div class="container signin">
+      <p>If Already have an account click <a href="#">Sign in</a> .</p>
+    </div>
+  </form>
